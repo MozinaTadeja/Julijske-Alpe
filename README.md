@@ -19,8 +19,9 @@ Hipoteze:
 - Višji vrhovi so bolj priljubljeni
 - Najbolj priljubljene gore imajo tudi največje število ogledov
 - Višji vrhovi imajo večje število poti
-- Pod vrsto se največkrat pojavi vrh
 - Višji vrhovi imajo večje število vpisov
+- Pod vrsto se največkrat pojavi vrh
 - Bolj priljubljeni vrhovi imajo več slik
 - Vrhovi z večjim številom poti imajo več GPS sledi
 - Vrhovi z večjim številom vpisov imajo tudi večje število slik
+- Kolikšno je povprečna višina, število ogledov, mesto priljubljenosti, število slik, število poti, število gps sledi in število vpisov v vpisni knjigi v Julijskih Alpah?
