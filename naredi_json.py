@@ -6,7 +6,7 @@ vzorec = re.compile( r'<title>(?P<ime>.*?)</title>.*?'
     r'Višina:</b>\s(?P<visina>\d+)&nbsp.*?'
     r'Vrsta:</b>\s(?P<vrsta>.*?)</div>.*?'
     r'Ogledov:</b> (?P<ogledi>.*?)</div>.*?'
-    r'Priljubljenost:.*?\((?P<priljubljenost>\d+).&.*?'
+    r'Priljubljenost:.*?\((?P<mesto_priljubljenosti>\d+).&.*?'
     r'Število slik:.*?slike">(?P<stevilo_slik>\d+)</a>.*?'
     r'Število poti:.*?poti">(?P<stevilo_poti>\d+)</a></div>.*?'
     r'Število GPS sledi:.*?GPS sledi">(?P<stevilo_gps_sledi>\d+)</a>',re.DOTALL)
@@ -28,4 +28,4 @@ for filename in os.listdir("gore"):
 print(seznam)
 print(len(seznam))
 orodja.zapisi_json(seznam, "obdelani-podatki/hribi.json")  
-orodja.zapisi_csv(seznam, ["ime", "visina", "vrsta", "ogledi", "priljubljenost", "stevilo_slik", "stevilo_poti", "stevilo_gps_sledi", "stevilo_vpisov_v_vpisni_knjigi"], "obdelani-podatki/hribi.csv")
+orodja.zapisi_csv(seznam, ["ime", "visina", "vrsta", "ogledi", "mesto_priljubljenosti", "stevilo_slik", "stevilo_poti", "stevilo_gps_sledi", "stevilo_vpisov_v_vpisni_knjigi"], "obdelani-podatki/hribi.csv")
